@@ -28,7 +28,7 @@
     "@babel/plugin-proposal-optional-chaining": "7.10.3",
     "@babel/preset-env": "7.10.3",
     "@babel/preset-typescript": "7.10.4",
-    "@babel/register": "7.10.3",
+    "@babel/register": "7.10.5",
     "@types/node": "13.13.4",
     "babel-plugin-module-resolver": "4.0.0",
     "husky": "4.2.5",
