@@ -11,7 +11,8 @@
     "build:tsc": "tsc",
     "build:compile": "babel ./src -d ./build -s --extensions \".js,.ts\" --ignore \"__tests__/*,__mocks__/*\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged",
+    "upgrade-deps": "yarn upgrade-interactive --latest"
   },
   "husky": {
     "hooks": {
