@@ -32,7 +32,7 @@
     "@babel/register": "7.12.10",
     "@types/node": "13.13.21",
     "babel-plugin-module-resolver": "4.1.0",
-    "husky": "4.3.6",
+    "husky": "4.3.8",
     "nodemon": "2.0.6",
     "prettier": "2.2.1",
     "pretty-quick": "3.1.0",
