@@ -14,11 +14,6 @@
     "precommit": "pretty-quick --staged",
     "upgrade-deps": "yarn upgrade-interactive --latest"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
   "devDependencies": {
     "@babel/cli": "7.13.14",
     "@babel/core": "7.13.15",
@@ -32,7 +27,6 @@
     "@babel/register": "7.13.14",
     "@types/node": "14.14.37",
     "babel-plugin-module-resolver": "4.1.0",
-    "husky": "4.3.8",
     "nodemon": "2.0.7",
     "prettier": "2.2.1",
     "pretty-quick": "3.1.0",
