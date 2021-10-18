@@ -28,7 +28,7 @@
     "@types/node": "15.0.1",
     "babel-plugin-module-resolver": "4.1.0",
     "nodemon": "2.0.7",
-    "prettier": "2.2.1",
+    "prettier": "2.4.1",
     "pretty-quick": "3.1.0",
     "ts-node": "9.1.1",
     "tsconfig-paths": "3.9.0",
