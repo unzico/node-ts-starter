@@ -2,37 +2,37 @@
   "name": "node-ts-starter",
   "version": "2.0.0",
   "description": "A NodeJS starter kit using TypeScript and Prettier.",
-  "author": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=16.13.1",
+    "yarn": "^3.1.1"
+  },
   "scripts": {
+    "audit": "yarn npm audit -A -R",
     "start": "node ./build/index.js",
-    "dev": "nodemon",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
     "build": "yarn run build:tsc && yarn run build:compile",
     "build:tsc": "tsc",
     "build:compile": "babel ./src -d ./build -s --extensions \".js,.ts\" --ignore \"__tests__/*,__mocks__/*\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "pretty-quick --staged",
-    "upgrade-deps": "yarn upgrade-interactive --latest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@babel/cli": "7.13.16",
-    "@babel/core": "7.14.0",
-    "@babel/node": "7.13.13",
-    "@babel/plugin-proposal-class-properties": "7.13.0",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "7.13.8",
-    "@babel/plugin-proposal-object-rest-spread": "7.13.8",
-    "@babel/plugin-proposal-optional-chaining": "7.13.12",
-    "@babel/preset-env": "7.14.0",
-    "@babel/preset-typescript": "7.13.0",
-    "@babel/register": "7.13.16",
-    "@types/node": "15.0.1",
+    "@babel/cli": "7.16.8",
+    "@babel/core": "7.16.12",
+    "@babel/node": "7.16.8",
+    "@babel/plugin-proposal-class-properties": "7.16.7",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "7.16.7",
+    "@babel/plugin-proposal-object-rest-spread": "7.16.7",
+    "@babel/plugin-proposal-optional-chaining": "7.16.7",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-typescript": "7.16.7",
+    "@babel/register": "7.16.9",
+    "@types/node": "17.0.12",
     "babel-plugin-module-resolver": "4.1.0",
-    "nodemon": "2.0.7",
-    "prettier": "2.2.1",
-    "pretty-quick": "3.1.0",
-    "ts-node": "9.1.1",
-    "tsconfig-paths": "3.9.0",
-    "typescript": "4.2.4"
+    "prettier": "2.5.1",
+    "ts-node-dev": "1.1.8",
+    "tsconfig-paths": "3.12.0",
+    "typescript": "4.5.5"
   },
-  "dependencies": {}
+  "packageManager": "yarn@3.1.1"
 }
