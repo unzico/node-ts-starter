@@ -11,6 +11,7 @@
     "audit": "yarn npm audit -A -R",
     "start": "node ./build/index.js",
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "lint":"tsc --noEmit",
     "build": "yarn run build:tsc && yarn run build:compile",
     "build:tsc": "tsc",
     "build:compile": "babel ./src -d ./build -s --extensions \".js,.ts\" --ignore \"__tests__/*,__mocks__/*\"",
