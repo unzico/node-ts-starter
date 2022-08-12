@@ -1,7 +1,6 @@
 {
-  "name": "node-ts-starter",
-  "version": "2.0.0",
-  "description": "A NodeJS starter kit using TypeScript and Prettier.",
+  "name": "starter",
+  "version": "1.0.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.13.1",
